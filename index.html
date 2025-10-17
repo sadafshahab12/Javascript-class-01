@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      document.write("<h1>Hello World!</h1>");
+    </script>
+  </head>
+  <body>
+    <button onclick="alert('button is clicked!')">Click me</button>
+    <h1 id="myHeader">today is our first javscript class</h1>
+    <button id="changeBtn">Change Text</button>
+
+    <script>
+      function changeText() {
+        document.getElementById("myHeader").innerHTML = "Today is second class";
+      }
+    </script>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
